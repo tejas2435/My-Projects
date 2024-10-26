@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    font-family:poppins;
+}
+body {
+    background-image: url('https://i.pinimg.com/564x/b0/2a/e2/b02ae2523a2c395bab1d7828492338bd.jpg');
+} 
+
+#login_head {
+
+    height: auto;
+    width: 480px;
+    margin: auto;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    background-color: rgb(234, 231, 231);
+    background-color : 0.1;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 25px 25px 0px 0px;
+}
+
+main {
+    height: auto;
+    width: 460px;
+    border: 0px solid black;
+    border-radius: 0px 0px 25px 25px ;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    /* text-align: center; */
+}
+
+.a,
+.c {
+    font-size: 40%;
+    display: flex;
+    width: 50%;
+}
+
+.submit_button {
+    margin-left: 25vh;
+    padding: 10px 30px;
+}
+
+/* .reset_button {
+    margin-left: 80px;
+    padding: 10px 20px;
+} */
+
+a {
+    padding-left: 20px;
+}
+
+.b2,
+.d2 {
+    margin-top: 25px;
+}
+
+.aa {
+    padding-left: 20%;
+}
+
+.cc {
+    margin-bottom:4%;
+    padding-left: 23%;
+}
+
+.other {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 5%;
+}
+.buttons{
+    margin-bottom: 5%;
+}
+#main{
+    margin-top: 20vh;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+button {
+    display: inline-block;
+    background-color: #141414;
+    color: white;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    
+  }
+  .button:hover {
+    transform: translateY(-0.25rem);
+  }
